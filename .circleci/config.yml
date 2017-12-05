@@ -42,7 +42,7 @@ jobs:
       - run: gradle test
 
 deployment:
-  production:
+  prod:
     branch: master
     heroku:
       appname: scrumday-mutation
