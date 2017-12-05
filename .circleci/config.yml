@@ -41,3 +41,8 @@ jobs:
       # run tests!
       - run: gradle test
 
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: scrumday-mutation
